@@ -9,7 +9,7 @@ import { useCallback, useState } from "react";
 import { toast } from "react-hot-toast";
 import Heading from "../Heading";
 import { Input } from "../inputs/Input";
-import { Modal } from "./Modal";
+import Modal from "./Modal";
 import { Button } from "../Button";
 import { 
     FieldValues, 

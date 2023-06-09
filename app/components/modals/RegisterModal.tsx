@@ -1,6 +1,7 @@
 'use client';
 
 import axios from "axios";
+import Modal from "./Modal";
 import { AiFillGithub } from "react-icons/ai";
 import { signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";
@@ -8,7 +9,6 @@ import { useCallback, useState } from "react";
 import { toast } from "react-hot-toast";
 import Heading from "../Heading";
 import { Input } from "../inputs/Input";
-import { Modal } from "./Modal";
 import { Button } from "../Button";
 import { 
     FieldValues, 
